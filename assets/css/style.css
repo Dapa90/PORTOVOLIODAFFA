@@ -8114,7 +8114,7 @@ body.template-color-1 {
   background: #212428;
   padding: 50px 40px 40px;
   transition: all 0.3s ease-in-out 0s; }
-  .left-header-style .logo-area a img {
+  .left-header-style .logo.area a img {
     border-radius: 50%;
     border: 5px solid #32363b;
     box-shadow: var(--shadow-1); }
