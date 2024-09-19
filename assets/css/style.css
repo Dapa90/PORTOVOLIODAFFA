@@ -25,7 +25,6 @@
 21. Progressbar
 22. Testimonial
 23. Clients
-24. Contact
 25. About
 26. Brand
 27. Footer
@@ -3637,10 +3636,6 @@ ol {
 .mt-dec-100 {
   margin-top: -100px !important; }
 
-@media only screen and (max-width: 479px) {
-  .contact-input {
-    margin-bottom: 35px; } }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mb_dec--35 {
     margin-bottom: -50px; } }
@@ -3653,21 +3648,9 @@ ol {
   .mb_dec--35 {
     margin-bottom: 0; } }
 
-@media only screen and (max-width: 575px) {
-  .mt-contact-sm {
-    margin-top: 30px !important; } }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-pb {
     padding-bottom: 35px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact-input {
-    padding-bottom: 30px; } }
-
-@media only screen and (max-width: 767px) {
-  .contact-input {
-    padding-bottom: 30px; } }
 
 .pb_xl--130 {
   padding-bottom: 130px; }
@@ -4985,7 +4968,6 @@ textarea:-ms-input-placeholder {
     color: var(--color-primary); }
 
 /*--------------------
-    Contact Form 
 ----------------------*/
 .form-message {
   margin-bottom: 0;
@@ -11459,226 +11441,7 @@ div#featured-project-carousel {
   padding: 0; }
 
 /*---------------------------
-    Contact Area Styles 
------------------------------*/
-.contact-about-area {
-  padding: 30px;
-  box-shadow: var(--shadow-1);
-  border-radius: 10px;
-  background-color: #212428;
-  height: 100%; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .contact-about-area {
-      height: auto; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .contact-about-area {
-      margin-bottom: 50px;
-      height: auto; } }
-  @media only screen and (max-width: 767px) {
-    .contact-about-area {
-      margin-bottom: 0;
-      padding: 50px 20px;
-      height: auto; } }
-  .contact-about-area .thumbnail {
-    margin-bottom: 28px;
-    overflow: hidden;
-    border-radius: 10px; }
-    .contact-about-area .thumbnail img {
-      width: 100%;
-      height: auto;
-      transition: var(--transition); }
-  .contact-about-area .title-area {
-    margin-bottom: 15px; }
-    .contact-about-area .title-area h4.title {
-      font-size: 29px;
-      line-height: 44px;
-      color: var(--color-light);
-      margin-bottom: 9px; }
-      @media only screen and (max-width: 479px) {
-        .contact-about-area .title-area h4.title {
-          font-size: 20px; } }
-  .contact-about-area .description {
-    margin-bottom: 39px; }
-    .contact-about-area .description p {
-      font-size: 18px;
-      font-weight: 400;
-      color: var(--color-body);
-      font-family: var(--font-primary);
-      line-height: 30px;
-      display: inline-block;
-      margin-bottom: 20px; }
-    .contact-about-area .description span {
-      display: block; }
-      @media only screen and (max-width: 767px) {
-        .contact-about-area .description span {
-          font-size: 16px; } }
-      .contact-about-area .description span a {
-        transition: var(--transition);
-        position: relative;
-        color: var(--color-lightn);
-        font-weight: 400; }
-        .contact-about-area .description span a::before {
-          content: '';
-          position: absolute;
-          width: 0%;
-          background-color: var(--color-primary);
-          height: 1px;
-          left: 0;
-          bottom: 2px;
-          transition: var(--transition);
-          z-index: 10; }
-        .contact-about-area .description span a:hover {
-          color: var(--color-primary); }
-          .contact-about-area .description span a:hover::before {
-            width: 100%; }
-  .contact-about-area .social-area .name {
-    font-size: 14px;
-    font-family: var(--font-secondary);
-    font-weight: 500;
-    color: var(--color-body);
-    margin-bottom: 8px; }
-  .contact-about-area .social-area .social-icone {
-    margin-top: 24px; }
-    .contact-about-area .social-area .social-icone a {
-      width: 61px;
-      height: 61px;
-      line-height: 57px;
-      margin-right: 15px;
-      box-shadow: var(--shadow-1);
-      border-radius: 6px;
-      transition: var(--transition);
-      display: inline-block;
-      text-align: center; }
-      .contact-about-area .social-area .social-icone a::before {
-        content: '';
-        position: absolute;
-        transition: var(--transition);
-        width: 100%;
-        height: 100%;
-        border-radius: 6px;
-        top: 0;
-        left: 0;
-        background: linear-gradient(to right bottom, #212428, #16181c);
-        opacity: 0;
-        z-index: -1; }
-      .contact-about-area .social-area .social-icone a svg {
-        stroke-width: 2;
-        width: 20px;
-        color: var(--color-lightn);
-        transition: var(--transition); }
-      .contact-about-area .social-area .social-icone a:hover {
-        transform: translateY(-5px); }
-        .contact-about-area .social-area .social-icone a:hover svg {
-          color: var(--color-white); }
-        .contact-about-area .social-area .social-icone a:hover::before {
-          opacity: 1; }
-  .contact-about-area:hover .thumbnail img {
-    transform: scale(1.1); }
-
-.contact-form-wrapper {
-  box-shadow: var(--shadow-1);
-  padding: 30px;
-  border-radius: 10px;
-  margin-left: 20px;
-  height: 100%; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .contact-form-wrapper {
-      margin: 0;
-      margin-top: 0; } }
-  @media only screen and (max-width: 767px) {
-    .contact-form-wrapper {
-      margin: 0;
-      margin-top: 40px; } }
-  @media only screen and (max-width: 479px) {
-    .contact-form-wrapper {
-      padding: 20px; } }
-  .contact-form-wrapper label {
-    font-size: 12px;
-    color: #a0a8b3;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: var(--font-secondary);
-    margin-bottom: 14px;
-    text-align: left;
-    display: block; }
-  .contact-form-wrapper input {
-    background-color: #191b1e;
-    border-radius: 6px;
-    height: 55px;
-    transition: var(--transition);
-    border: 2px solid #191b1e;
-    padding: 0 15px;
-    font-size: 14px;
-    font-family: var(--font-secondary);
-    color: var(--color-lightn);
-    box-shadow: var(--inner-shadow);
-    letter-spacing: 1px; }
-    @media only screen and (max-width: 479px) {
-      .contact-form-wrapper input {
-        margin-bottom: 15px; } }
-    .contact-form-wrapper input:focus {
-      background-color: #191b1e;
-      color: var(--color-light);
-      border-color: var(--color-primary);
-      box-shadow: none; }
-  .contact-form-wrapper textarea {
-    min-height: 235px;
-    background-color: #191b1e;
-    border-radius: 6px;
-    padding: 0;
-    transition: var(--transition);
-    border: 2px solid #191b1e;
-    padding: 10px 15px;
-    font-size: 14px;
-    line-height: 18px;
-    font-family: var(--font-secondary);
-    color: var(--color-lightn);
-    box-shadow: var(--inner-shadow);
-    letter-spacing: 1px;
-    resize: none; }
-    @media only screen and (max-width: 767px) {
-      .contact-form-wrapper textarea {
-        min-height: 150px; } }
-    .contact-form-wrapper textarea:focus {
-      border-color: var(--color-primary);
-      box-shadow: none; }
-  .contact-form-wrapper .introduce {
-    display: flex;
-    justify-content: space-between; }
-    .contact-form-wrapper .introduce input {
-      width: 100%; }
-  .contact-form-wrapper a.rn-btn span {
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-family: var(--font-secondary);
-    transform: var(--transition);
-    margin-left: 5px; }
-  .contact-form-wrapper a.rn-btn svg {
-    transition: var(--transition); }
-  .contact-form-wrapper a:hover svg {
-    margin-left: 10px; }
-  .contact-form-wrapper .email-area {
-    margin-top: 30px; }
-    @media only screen and (max-width: 479px) {
-      .contact-form-wrapper .email-area {
-        margin-top: 0; } }
-  .contact-form-wrapper .subject {
-    margin-top: 30px; }
-    @media only screen and (max-width: 479px) {
-      .contact-form-wrapper .subject {
-        margin-top: 0; } }
-  .contact-form-wrapper .message {
-    margin-top: 30px; }
-    @media only screen and (max-width: 479px) {
-      .contact-form-wrapper .message {
-        margin-top: 0; } }
-  @media only screen and (max-width: 479px) {
-    .contact-form-wrapper .rn-btn {
-      display: block;
-      text-align: center; } }
-
+   
 .error-msg {
   margin-top: 20px;
   background: #ff00031f;
@@ -11952,11 +11715,6 @@ div#featured-project-carousel {
   box-shadow: none; }
   .sticky-home-wrapper .rn-testimonial-area .testimonial-inner::before {
     display: none; }
-
-.sticky-home-wrapper .contact-form-wrapper {
-  box-shadow: none;
-  padding: 0;
-  margin: 0; }
 
 .portfolio-popup-thumbnail img {
   border-radius: 10px; }
